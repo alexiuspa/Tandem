@@ -14,6 +14,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
+using Tandem.Models;
+using Tandem.DAL;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 namespace Tandem
 {
@@ -30,6 +34,12 @@ namespace Tandem
 		public void ConfigureServices(IServiceCollection services)
 		{
 
+			services.AddOptions();
+
+			services.Configure<CosmosDBConfiguration>(Configuration.GetSection("CosmosDConfiguration"));
+
+
+			services.AddScoped< IRepository<Patient> , CosmosDBRepo<Patient> >();
 
 			services.AddSwaggerGen(sw =>
 			{
@@ -44,6 +54,10 @@ namespace Tandem
 
 			});
 
+
+			services.AddTransient<IValidator<Patient> ,  PatientValidator>();
+
+			services.AddMvc().AddFluentValidation();
 
 			services.AddControllers();
 		}

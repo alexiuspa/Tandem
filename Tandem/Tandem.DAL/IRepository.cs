@@ -12,7 +12,7 @@ namespace Tandem.DAL
 
 		Task<T> Add(T entity);
 
-
+		Task<T> Update(T entity);
 	 
 
 	}

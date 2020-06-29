@@ -1,0 +1,14 @@
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Cosmos.CRTCompat.dll
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Tandem.DAL.deps.json
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Tandem.DAL.dll
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Tandem.DAL.pdb
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Tandem.Models.dll
+C:\Research\POC\Tandem\Tandem.DAL\bin\Debug\netcoreapp3.1\Tandem.Models.pdb
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.csprojAssemblyReference.cache
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.AssemblyInfoInputs.cache
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.AssemblyInfo.cs
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.csproj.CoreCompileInputs.cache
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.csproj.CopyComplete
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.dll
+C:\Research\POC\Tandem\Tandem.DAL\obj\Debug\netcoreapp3.1\Tandem.DAL.pdb

@@ -1,0 +1,9 @@
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.csprojAssemblyReference.cache
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.AssemblyInfoInputs.cache
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.AssemblyInfo.cs
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.RazorTargetAssemblyInfo.cache
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\staticwebassets\Tandem.StaticWebAssets.Manifest.cache
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\staticwebassets\Tandem.StaticWebAssets.xml

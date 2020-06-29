@@ -20,7 +20,9 @@ namespace Tandem
 			Host.CreateDefaultBuilder(args)
 				.ConfigureWebHostDefaults(webBuilder =>
 				{
-					webBuilder.UseStartup<Startup>();
+				    webBuilder.UseKestrel()
+					.UseIISIntegration().
+					 UseStartup<Startup>();
 				});
 	}
 }

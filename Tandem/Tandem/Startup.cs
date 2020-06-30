@@ -43,7 +43,7 @@ namespace Tandem
 			services.AddAutoMapper( typeof(Startup));
 
 
-			services.AddScoped< IRepository<Patient> , CosmosDBRepo<Patient> >();
+			services.AddSingleton< IRepository<Patient> , CosmosDBRepo<Patient> >();
 
 			services.AddSwaggerGen(sw =>
 			{

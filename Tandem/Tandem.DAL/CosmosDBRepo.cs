@@ -8,6 +8,7 @@ using Microsoft.Azure.Cosmos;
 using System.Security.Permissions;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Schema;
+using System.Linq;
 
 namespace Tandem.DAL
 {
@@ -26,9 +27,9 @@ namespace Tandem.DAL
 
 				dbClient = new CosmosClient(options.Value.Account, options.Value.Key);
 
-				dbClient.CreateDatabaseIfNotExistsAsync(options.Value.DatabasName);
+				dbClient.CreateDatabaseIfNotExistsAsync(options.Value.DatabaseName);
 
-				container = dbClient.GetContainer(options.Value.DatabasName, options.Value.ContainerName);
+				container = dbClient.GetContainer(options.Value.DatabaseName, options.Value.ContainerName);
 
 			}
 			catch (Exception err)
@@ -55,9 +56,31 @@ namespace Tandem.DAL
 
 		}
 
-		public System.Threading.Tasks.Task<T> GetAll(string id)
+		public async System.Threading.Tasks.Task<T> GetAll(string id)
 		{
-			throw new NotImplementedException();
+
+
+			var sqlQueryText = $"SELECT * FROM c WHERE c.EmailAddress = '{id}'";
+
+		 
+
+			QueryDefinition queryDefinition = new QueryDefinition(sqlQueryText);
+			FeedIterator<T> queryResultSetIterator =  container.GetItemQueryIterator<T>(queryDefinition);
+
+
+
+			if  (queryResultSetIterator.HasMoreResults)
+			{
+				FeedResponse<T> currentResultSet = await queryResultSetIterator.ReadNextAsync();
+				var items = currentResultSet.ToList<T>();
+
+				return items[0];
+
+			}
+
+			return null;
+
+
 		}
 
 		public  async Task<T> Update(T entity)

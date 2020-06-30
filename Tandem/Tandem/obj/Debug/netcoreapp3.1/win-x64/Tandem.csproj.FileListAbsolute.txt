@@ -395,3 +395,5 @@ C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\win-x64\System.Private.Ser
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\win-x64\System.Security.Cryptography.ProtectedData.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\win-x64\System.ServiceModel.Primitives.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\win-x64\System.ServiceModel.dll
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\win-x64\AutoMapper.dll
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\win-x64\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

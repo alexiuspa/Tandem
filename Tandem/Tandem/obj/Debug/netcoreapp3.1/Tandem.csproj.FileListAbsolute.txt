@@ -47,8 +47,9 @@ C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstand
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.csproj.CoreCompileInputs.cache
-C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.MvcApplicationPartsAssemblyInfo.cs
 C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.MvcApplicationPartsAssemblyInfo.cache
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

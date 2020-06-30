@@ -57,6 +57,21 @@ namespace UnitTestCoverage
 
 
 		[TestMethod]
+		public void Get_User_By_EmailAddress()
+		{
+
+
+			 var   patient   =  client.GetAll("alexiuspa@yahoo.com").Result;
+
+			Assert.IsTrue(patient.EmailAddress.ToLower() == "alexiuspa@yahoo.com");
+
+
+		
+		
+		}
+
+
+		[TestMethod]
 		public   void Add_Patient_To_Containter()
 		{
 

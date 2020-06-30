@@ -18,6 +18,8 @@ using Tandem.Models;
 using Tandem.DAL;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using AutoMapper;
+
 
 namespace Tandem
 {
@@ -37,6 +39,8 @@ namespace Tandem
 			services.AddOptions();
 
 			services.Configure<CosmosDBConfiguration>(Configuration.GetSection("CosmosDConfiguration"));
+
+			services.AddAutoMapper( typeof(Startup));
 
 
 			services.AddScoped< IRepository<Patient> , CosmosDBRepo<Patient> >();

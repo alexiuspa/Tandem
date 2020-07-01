@@ -55,9 +55,9 @@ namespace Tandem.ModelsDTO
 	}
 
 
-	public class PatientValidator : AbstractValidator<NewPatientDTO>
+	public class PatientDTOValidator : AbstractValidator<NewPatientDTO>
 	{
-		public PatientValidator()
+		public PatientDTOValidator()
 		{
 
 			RuleFor(p => p.lastName).NotNull();

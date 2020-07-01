@@ -19,7 +19,7 @@ using Tandem.DAL;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using AutoMapper;
-
+using Tandem.ModelsDTO;
 
 namespace Tandem
 {
@@ -60,6 +60,7 @@ namespace Tandem
 
 
 			services.AddTransient<IValidator<Patient> ,  PatientValidator>();
+			services.AddTransient<IValidator<NewPatientDTO>, PatientDTOValidator>();
 
 			services.AddMvc().AddFluentValidation();
 

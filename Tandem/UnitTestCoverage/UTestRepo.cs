@@ -27,7 +27,7 @@ namespace UnitTestCoverage
 			{
 				Account = "https://tandemdb.documents.azure.com:443/",
 				ContainerName = "Patients",
-				DatabasName = "TandemDB",
+				DatabaseName= "TandemDB",
 				Key = "KKO95GszCRb4w0kDEGaaBVoscVP61aoxGnTnFnPxGuxGVuZYyIzD3QPRgw8xQEfW4PfecOxmB8Yce30tRy6ceA=="
 
 

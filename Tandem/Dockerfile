@@ -4,9 +4,8 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1 as build-env
 WORKDIR /app
 
 
-COPY *.csproj ./
+COPY C:\Research\POC\Tandem\tandem\Tandem.csproj ./
 RUN dotnet restore 
-
 COPY . ./
 RUN dotnet publish  -c Release -o out
 

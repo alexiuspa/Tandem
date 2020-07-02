@@ -53,3 +53,4 @@ C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCor
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Research\POC\Tandem\Tandem\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Research\POC\Tandem\Tandem\obj\Debug\netcoreapp3.1\Tandem.MvcApplicationPartsAssemblyInfo.cs
